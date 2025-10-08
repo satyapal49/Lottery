@@ -1,0 +1,7 @@
+.ticket {
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    border-radius: 50px; /* this doesn't work */
+    border-width: 4px;
+    border-style: solid;
+   
+}
