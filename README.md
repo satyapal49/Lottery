@@ -1,16 +1,14 @@
-# Lottery Project
+# Lottery
 
-## Overview
-
-This project is a lottery application developed as part of the Sigma 6.0 suite. It provides a platform for users to participate in lottery draws, manage tickets, and view results.
+A streamlined React-based lottery management system for efficient ticket handling and secure winner selection.
 
 ## Features
 
-- User registration and authentication
-- Purchase and management of lottery tickets
-- Automated draw and result generation
-- History and statistics tracking
-- Admin panel for managing draws and users
+- Create and manage lottery tickets
+- Real-time ticket listing
+- Secure random winner selection algorithm
+- Delete tickets
+- Reset the entire lottery
 
 ## Installation
 
@@ -22,23 +20,40 @@ This project is a lottery application developed as part of the Sigma 6.0 suite. 
     ```bash
     cd Lottery
     ```
-3. Follow setup instructions in `INSTALL.md` or run:
+3. Install dependencies:
     ```bash
     npm install
     ```
 
+## Running the Application
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Access the application in your browser and follow the interface to manage tickets and draw winners.
+
+## Notes
+
+Ensure all dependencies are installed and your environment supports React for optimal performance.
+
+A simple lottery application for managing and drawing lottery tickets.
+
+## Features
+
+- Add new lottery tickets
+- View all tickets
+- Randomly draw a winning ticket
+- Delete tickets
+- Reset lottery
+
+## Getting Started
+
+1. Clone the repository.
+2. Install dependencies.
+3. Run the application.
+
 ## Usage
 
-Start the application:
-```bash
-npm start
-```
-Access the app at `http://localhost:3000`.
-
-## Contributing
-
-Contributions are welcome! Please submit issues or pull requests via GitHub.
-
-## License
-
-This project is licensed under the MIT License.
+Follow the on-screen instructions to manage tickets and draw winners.
